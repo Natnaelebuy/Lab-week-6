@@ -7,29 +7,47 @@ package labweeksix;
 public class App {
     public static void main( String[] args )
     {
-        String nameString[] = new String[3];
-        nameString[0] = "Geeks";
-        nameString[1] = "for";
-        nameString[2] = "Geeks";
-        {
-            System.out.print(nameString[0] + " ");
-            System.out.println(nameString[1] + " ");
-            System.out.println(nameString[2] + " ");
+        // student names 
+        String nameString[] = new String[5];
+        nameString[0] = "Danh Pham";
+        nameString[1] = "kunal Kheeva";
+        nameString[2] = "Joshua Paas";
+        nameString[3] = "Steven Woodson";
+        nameString[4] = "Sunny Vinay";
 
-        }
-    }
-    public static void name(String[] args) {
-        Integer[] anArray = new Integer[10];
-
-        for (int i = 0; i < anArray.length; i++) {
-            anArray[i] = new Integer(i);
-            System.out.println(anArray[i]);
-        }
+        System.out.println("student name = " + nameString[0]);
+        System.out.println("student name = " + nameString[1]);
+        System.out.println("student name = " + nameString[2]);
+        System.out.println("student name = " + nameString[3]);
+        System.out.println("student name = " + nameString[4]);
         
     }
+
+    static class array{
+        public static void main(String[] args){
         
+        Integer[] numbers = {1,3,-4,7,5};
+        System.out.println("\n array of integers");
+        for(int i = 0; i < numbers.length; i++){
+            System.out.printf("%d", numbers[i]);
+        }
+        
+        Integer [] new_numbers = new Integer[numbers.length + 1];
+        for (int i = 0; 1 < numbers.length; i++  ){
+            new_numbers[i] = numbers[i];
+        }
+
+        System.out.println("\n new more array of strings");
+        numbers[4] = numbers[1] + numbers[2];
+        for (int i = 0; i < numbers.length; i++){
+            System.out.printf("%d", numbers[i]);
+        }
+                
     
-            
+      }
+    }
+        
+             
     
     
 }

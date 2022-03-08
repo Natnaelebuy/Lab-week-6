@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch App$array",
+            "request": "launch",
+            "mainClass": "labweeksix.App$array",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
